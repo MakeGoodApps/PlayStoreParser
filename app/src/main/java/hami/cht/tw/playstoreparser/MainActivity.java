@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
         File logFile = new File(mLogPath, fileName);
         logFile.delete();
 
-        log.append("支付" + "\t" +  "用戶名稱" + "\t" + "評論時間" + "\t" + "評論星等" + "\t" + "評論內容" + "\n");
+        log.append("支付方式" + "\t" +  "用戶名稱" + "\t" + "評論時間" + "\t" + "評論星等" + "\t" + "評論內容" + "\n");
         for(String key : mReviews.keySet()) {
             for(PlayStoreReview aReview : mReviews.get(key)) {
                 log.append(key + "\t" +  aReview.getUserName() + "\t" + aReview.getReviewTime() + "\t" + aReview.getReviewStar() + "\t" + aReview.getReviewText() + "\n");
