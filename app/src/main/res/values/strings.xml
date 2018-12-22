@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">PlayStoreParser</string>
+    <string-array name="apkList">
+        <item>Hami Pay</item>
+        <item>Google Pay</item>
+        <item>街口支付</item>
+        <item>遠傳friday錢包</item>
+        <item>台哥大WALI</item>
+    </string-array>
+</resources>
