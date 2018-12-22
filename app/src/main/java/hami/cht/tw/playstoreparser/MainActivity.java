@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
     private void generateReviewList() throws IOException {
         StringBuilder log = new StringBuilder();
         final String mLogPath = "/sdcard/";
-        String fileName = "reviews.csv";
+        String fileName = "reviewList.csv";
         File logFile = new File(mLogPath, fileName);
         logFile.delete();
 
